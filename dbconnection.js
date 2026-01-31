@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const dburi = 'mongodb+srv://user:joseph123@cluster0.zxhb1xh.mongodb.net/?appName=Cluster0';
+const dburi = '';
 
 const connectDB = async () => {
     try {
@@ -10,5 +10,6 @@ const connectDB = async () => {
         console.log('Error connecting to MongoDB:', error);
     }
 }
+
 
 module.exports = { connectDB }
